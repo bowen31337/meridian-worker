@@ -1,16 +1,24 @@
 {
   "name": "meridian-worker",
   "version": "0.1.0",
-  "description": "Cloudflare Workers serverless function",
+  "description": "Serverless functions for Meridian on Cloudflare Workers",
   "type": "module",
+  "main": "src/index.js",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler publish",
-    "preview": "wrangler preview"
+    "preview": "wrangler preview",
+    "test": "echo \"No tests yet\""
   },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "serverless",
+    "api"
+  ],
+  "author": "bowen31337",
+  "license": "MIT",
   "devDependencies": {
     "wrangler": "^3.0.0"
-  },
-  "author": "bowen31337",
-  "license": "MIT"
+  }
 }
