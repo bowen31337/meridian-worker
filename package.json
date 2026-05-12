@@ -1,0 +1,16 @@
+{
+  "name": "meridian-worker",
+  "version": "0.1.0",
+  "description": "Cloudflare Workers serverless function",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "preview": "wrangler preview"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "author": "bowen31337",
+  "license": "MIT"
+}
